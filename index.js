@@ -29,13 +29,6 @@ for (const file of commandFiles) {
     bot.commands.set(command.name, command);
 }
 
-const Eco2commandFiles = fs.readdirSync('./commands/Economy2').filter(file => file.endsWith('.js'));
-for (const file of Eco2commandFiles) {
-    const command = require(`./commands/Economy2/${file}`)
-
-    bot.commands.set(command.name, command);
-}
-
 const EcocommandFiles = fs.readdirSync('./commands/Economy').filter(file => file.endsWith('.js'));
 for (const file of EcocommandFiles) {
     const command = require(`./commands/Economy/${file}`)
