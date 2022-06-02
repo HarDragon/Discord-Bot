@@ -114,7 +114,6 @@ module.exports = {
                     // .setAuthor(`${message.guild.name} - Leaderboard!`, message.guild.iconURL)
                     .setAuthor(`${message.guild.name} - Leaderboard of Legends`)
                     .setDescription(leaderboard.slice(0, size))
-                    // .setImage("https://media.discordapp.net/attachments/588373428247986185/803116216100716574/rainbow.gif")
                     .setTimestamp()
                     .setFooter(`Hystogan's Economy - Page 1`, user.displayAvatarURL())
                 message.channel.send(lb);
@@ -131,7 +130,6 @@ module.exports = {
                     .addFields(
                         { name: "Error 404", value: "This leaderboard does not yet exist", inline: true },
                     )
-                    // .setImage("https://media.discordapp.net/attachments/588373428247986185/803116216100716574/rainbow.gif")
                     .setTimestamp()
                     .setFooter(`Hystogan's Economy - Page 2`, user.displayAvatarURL())
                 message.channel.send(lb);
@@ -145,7 +143,6 @@ module.exports = {
                     .setColor('#FF1493')
                     .setAuthor(`${message.guild.name} - Leaderboard of Legends`)
                     .setDescription(leaderboard.slice(size / 2, size))
-                    // .setImage("https://media.discordapp.net/attachments/588373428247986185/803116216100716574/rainbow.gif")
                     .setTimestamp()
                     .setFooter(`Hystogan's Economy - Page 2`, user.displayAvatarURL())
                 message.channel.send(lb);
@@ -161,7 +158,6 @@ module.exports = {
                     .addFields(
                         { name: "Error 404", value: "This leaderboard does not yet exist", inline: true },
                     )
-                    // .setImage("https://media.discordapp.net/attachments/588373428247986185/803116216100716574/rainbow.gif")
                     .setTimestamp()
                     .setFooter(`Hystogan's Economy - Page 3`, user.displayAvatarURL())
                 message.channel.send(lb);
@@ -174,7 +170,6 @@ module.exports = {
                     .setColor('#FF1493')
                     .setAuthor(`${message.guild.name} - Leaderboard of Legends`)
                     .setDescription(leaderboard.slice(20, 30))
-                    // .setImage("https://media.discordapp.net/attachments/588373428247986185/803116216100716574/rainbow.gif")
                     .setTimestamp()
                     .setFooter(`Hystogan's Economy - Page 3`, user.displayAvatarURL())
                 message.channel.send(lb);
